@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanaka Dhara Software Services LLP.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+    <style>
+        .logo {
+            width: 150px;
+        }
+        .mh{
+            min-height: 12rem;
+        }
+        .cursor-pointer {
+  cursor: pointer;
+}
+        body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #5681e8; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+    </style>
+</head>
+
+<body>
+    <div id="particles-s"></div>
+    <div class="container-fluid position-relative"">
+        <div class="row text-center">
+            <div class="col">
+                <img src="logo.png" alt="KDSS" class="logo">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <h1>
+                    Kanaka Dhara Software Services LLP.
+                </h1>
+            </div>
+        </div>
+        <div class="row text-center mh">
+            <div class="col-8 mx-auto fs-1">
+                <div id="app"></div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-8 mx-auto">
+                <button class="btn btn-outline-dark btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  Menu
+</button>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar fixed-bottom bg-body-tertiary">
+  <div class="container-fluid">
+    <p class="mb-0">All Copyright Reserved &copy;</p>
+    <div class="ml-auto">
+        <a href="" class="fs-3">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="" class="fs-3">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="" class="fs-3">
+            <i class="bi bi-linkedin"></i>
+        </a>
+    </div>
+  </div>
+</nav>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group list-group-flush fs-2">
+  <li class="list-group-item cursor-pointer">Home</li>
+  <li class="list-group-item cursor-pointer" data-bs-toggle="modal" data-bs-target="#aboutUs">About Us</li>
+  <li class="list-group-item cursor-pointer" data-bs-toggle="modal" data-bs-target="#ourServices">Our Services</li>
+  <li class="list-group-item cursor-pointer" data-bs-toggle="modal" data-bs-target="#ourClients">Our Clients</li>
+  <li class="list-group-item cursor-pointer" data-bs-toggle="modal" data-bs-target="#contactUs">Contact Us</li>
+</ul>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="aboutUs" tabindex="-1" aria-labelledby="aboutUsLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-transparent">
+        <h1 class="modal-title fs-5" id="aboutUsLabel">About Us</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ourServices" tabindex="-1" aria-labelledby="ourServicesLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="ourServicesLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ourClients" tabindex="-1" aria-labelledby="ourClientsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="ourClientsLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="contactUs" tabindex="-1" aria-labelledby="contactUsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="contactUsLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+    var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Hello World!')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('We build fast, modern, and scalable websites tailored to your business goals')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Expert WordPress development — from custom setups to powerful eCommerce solutions.')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Seamless API development and integrations that streamline your operations.')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Data-driven digital marketing, SEO, and analytics to boost visibility and growth.')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Secure payment gateway solutions and Python-powered applications that take your business further.')
+    .pauseFor(2500)
+    .start();
+
+    particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);
+</script>
+
+</html>
